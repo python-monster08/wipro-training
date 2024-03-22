@@ -30,3 +30,14 @@ This project consists of a set of instructions for setting up and building a pro
 To clean the directory/files:
 ```bash
 make -f script/Makefile clean
+```
+
+To generate files
+```bash
+make -f script/Makefile
+```
+
+To run project
+```bash
+./bin/simpleCalc
+```
