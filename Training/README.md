@@ -1,23 +1,32 @@
 # WiproClassWork
 
-$sudo apt install make
-Note: please create the dirctory for obj
-proj01>$mkdir obj
+This project consists of a set of instructions for setting up and building a project using `make` and managing directory structures.
 
+## Installation
 
-to clean the dirctory/files
+### Prerequisites
+- `make`
+- `tree` (optional, for viewing tree structure)
 
-proj01>$make -f script/Makefile clean
+### Instructions
+1. Install `make`:
+    ```bash
+    sudo apt install make
+    ```
 
-to build the project
+2. Create the directory for `obj`:
+    ```bash
+    mkdir obj
+    ```
 
-proj01>$make -f script/Makefile
+3. Install `tree` (optional, if not already installed):
+    ```bash
+    sudo apt install tree
+    ```
 
-to look in the tree structure
+## Usage
 
-proj01>$tree
-
-if tree is not present install it
-
-$sudo apt install tree
-
+### Cleaning
+To clean the directory/files:
+```bash
+make -f script/Makefile clean
