@@ -42,4 +42,8 @@ int main() {
     printf("Number of Ways: = %d\n", noOfWays);
 
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 89dae5b3094c4daefc3593ec67e52b257aeaa47c
