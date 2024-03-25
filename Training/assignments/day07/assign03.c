@@ -11,7 +11,7 @@ int main() {
     }
 
     // Displaying the array elements
-    printf("Array from 1 to 100: ");
+    printf("Array from 1 to 100: \n");
     for (int i = 0; i < CAP; i++) {
         printf("%d ", arr[i]);
     }
