@@ -5,7 +5,6 @@ demo on recurrsive function
 
 #include <stdio.h>
 
-
 int demoRecur(int);
 
 int main()
@@ -32,4 +31,4 @@ int demoRecur(int i)
     printf("\nretR = %d", retR);
     //return 200;
     return i;
-} 
+}
